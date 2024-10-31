@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .info-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
